@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pothuganti Akhil - Portfolio</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Fira+Code:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav id="navbar" class="animate-on-load-nav">
+        <div class="nav-container">
+            <a href="#home" class="logo">{ P.Akhil }</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <button id="theme-toggle" aria-label="Toggle Dark/Light Mode">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <p class="greeting animate-on-load" style="--delay: 0.2s;">Hi, my name is</p>
+                <h1 class="name animate-on-load" style="--delay: 0.3s;">Pothuganti Akhil.</h1>
+                <h2 class="typing-container animate-on-load" style="--delay: 0.4s;">I'm a <span class="typing-text"></span><span class="cursor">|</span></h2>
+                <p class="hero-desc animate-on-load" style="--delay: 0.5s;">I am a passionate Computer Science student with a strong interest in Cyber Security, Java development, and problem-solving. I build real-world projects and learn new technologies.</p>
+                <div class="hero-buttons animate-on-load" style="--delay: 0.6s;">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="assets/resume.pdf" class="btn btn-outline" download="Akhil_Pothuganti_Resume.pdf"><i class="fas fa-download"></i> Download Resume</a>
+                </div>
+            </div>
+            <div class="hero-image animate-on-load" style="--delay: 0.7s;">
+                <div class="image-wrapper">
+                    <div class="image-inner">
+                        <img src="assets/profile.jpg" alt="Pothuganti Akhil">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2 class="section-title">01. <span>About Me</span></h2>
+        <div class="about-content fade-in">
+            <p>I am a passionate Computer Science student with a strong interest in <strong>Cyber Security, Java development, and problem solving</strong>. I enjoy building real-world projects and learning new technologies to expand my skill set.</p>
+            <p>I am also familiar with <strong>.NET development</strong> and eager to expand my skills in backend and full-stack development, always striving to build secure and scalable applications.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2 class="section-title">02. <span>Skills & Technologies</span></h2>
+        <div class="skills-grid">
+            <div class="skill-category slide-up" style="--delay: 0.1s;">
+                <div class="category-header">
+                    <i class="fas fa-code"></i>
+                    <h3>Languages</h3>
+                </div>
+                <div class="tags">
+                    <span class="tag">Java</span>
+                    <span class="tag">C++</span>
+                    <span class="tag">Python</span>
+                    <span class="tag">.NET</span>
+                </div>
+            </div>
+            <div class="skill-category slide-up" style="--delay: 0.2s;">
+                <div class="category-header">
+                    <i class="fas fa-tools"></i>
+                    <h3>Tools</h3>
+                </div>
+                <div class="tags">
+                    <span class="tag tag-accent">Nmap</span>
+                    <span class="tag tag-accent">Wireshark</span>
+                    <span class="tag tag-accent">Kali Linux</span>
+                    <span class="tag">Git & GitHub</span>
+                    <span class="tag">VS Code</span>
+                </div>
+            </div>
+            <div class="skill-category slide-up" style="--delay: 0.3s;">
+                <div class="category-header">
+                    <i class="fas fa-brain"></i>
+                    <h3>Concepts</h3>
+                </div>
+                <div class="tags">
+                    <span class="tag tag-outline">Data Structures & Algorithms</span>
+                    <span class="tag tag-outline">OOP</span>
+                    <span class="tag tag-outline">Web Security</span>
+                    <span class="tag tag-outline">Vulnerability Assessment</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2 class="section-title">03. <span>Projects</span></h2>
+        <div class="project-grid">
+            <!-- Project 1 -->
+            <div class="project-card fade-in">
+                <div class="project-icon-wrapper text-blue">
+                    <i class="fas fa-laptop-medical"></i>
+                </div>
+                <h3 class="project-title">Mental Health Simulator</h3>
+                <p class="project-context">(Java OOP Application)</p>
+                <p class="project-desc">A Java application simulating real-world mental health scenarios built using core OOP principles (encapsulation, inheritance, polymorphism). Includes robust unit testing using JUnit.</p>
+                <div class="project-tech-badges">
+                    <span class="tech-badge">Java</span>
+                    <span class="tech-badge">OOP</span>
+                    <span class="tech-badge">JUnit</span>
+                </div>
+                <div class="project-footer-links">
+                    <a href="#" class="link-code"><i class="fab fa-github"></i> Code</a>
+                    <a href="https://pothuganti-akhil.github.io/mindspace/" target="_blank" class="link-demo"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card fade-in">
+                <div class="project-icon-wrapper text-purple">
+                    <i class="fas fa-shield-virus"></i>
+                </div>
+                <h3 class="project-title">Website Vulnerability Scanner</h3>
+                <p class="project-context">(Security & Reconnaissance)</p>
+                <p class="project-desc">Security tool that performs reconnaissance and vulnerability analysis. Detects open ports, identifies CMS systems, and highlights HTTP security issues.</p>
+                <div class="project-tech-badges">
+                    <span class="tech-badge">Nmap</span>
+                    <span class="tech-badge">WhatWeb</span>
+                    <span class="tech-badge">WPScan</span>
+                </div>
+                <div class="project-footer-links">
+                    <a href="#" class="link-code"><i class="fab fa-github"></i> Code</a>
+                    <a href="https://secscan-web-pro-kfhm2bx6ygyhznybt6mjim.streamlit.app/" target="_blank" class="link-demo"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card fade-in">
+                <div class="project-icon-wrapper text-emerald">
+                    <i class="fas fa-link"></i>
+                </div>
+                <h3 class="project-title">URL Phishing Detector</h3>
+                <p class="project-context">(Rule-Based Detection)</p>
+                <p class="project-desc">A rule-based detection system designed to identify malicious URLs using features like URL length, presence of HTTPS, specific keywords, and suspicious subdomains.</p>
+                <div class="project-tech-badges">
+                    <span class="tech-badge">Python</span>
+                    <span class="tech-badge">Cyber Security</span>
+                    <span class="tech-badge">Heuristics</span>
+                </div>
+                <div class="project-footer-links">
+                    <a href="#" class="link-code"><i class="fab fa-github"></i> Code</a>
+                    <a href="#" class="link-demo"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education & Certifications -->
+    <section id="education" class="section two-col">
+        <div class="col slide-up">
+            <h2 class="section-title">04. <span>Education</span></h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <h3>B.Tech CSE</h3>
+                    <h4>Lovely Professional University</h4>
+                    <span class="timeline-date">2023 – 2027</span>
+                    <p>Focus on Computer Science and Engineering with a strong foundation in programming and core CS concepts.</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <h3>12th Grade (Science Stream)</h3>
+                    <h4>Vasavi Junior College, AP</h4>
+                    <span class="timeline-date">2021 – 2023</span>
+                    <p>Graduated with a strong academic foundation in the Science stream.<br><strong>Percentage:</strong> 84%</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <h3>10th Grade</h3>
+                    <h4>Surya Vidya Nikethan, AP</h4>
+                    <span class="timeline-date">2020 – 2021</span>
+                    <p>Completed foundational secondary education with distinction.<br><strong>CGPA:</strong> 9.8</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col slide-up" style="--delay: 0.2s;">
+            <h2 class="section-title">05. <span>Certifications</span></h2>
+            <div class="cert-list">
+                <a href="https://www.cert.devtown.in/verify/1ftu35" target="_blank" class="cert-card">
+                    <div class="cert-icon-wrapper">
+                        <i class="fas fa-award cert-icon"></i>
+                    </div>
+                    <div class="cert-info">
+                        <h4>Generative AI & Tools</h4>
+                        <span>Udemy / DevTown</span>
+                    </div>
+                    <i class="fas fa-external-link-square-alt cert-link-icon"></i>
+                </a>
+                <a href="https://infyspringboard.onwingspan.com/public-assets/infosysheadstart/cert/lex_auth_0135015511562403847605/1-16de662e-f196-4250-8594-6c67095998f9.pdf" target="_blank" class="cert-card">
+                    <div class="cert-icon-wrapper">
+                        <i class="fas fa-award cert-icon"></i>
+                    </div>
+                    <div class="cert-info">
+                        <h4>Computational Theory</h4>
+                        <span>Infosys Springboard</span>
+                    </div>
+                    <i class="fas fa-external-link-square-alt cert-link-icon"></i>
+                </a>
+                <a href="https://www.cipherschools.com/certificate/preview?id=689b6cc194c24c5a4c60a1f0" target="_blank" class="cert-card">
+                    <div class="cert-icon-wrapper">
+                        <i class="fas fa-award cert-icon"></i>
+                    </div>
+                    <div class="cert-info">
+                        <h4>Java with OOP</h4>
+                        <span>CipherSchools</span>
+                    </div>
+                    <i class="fas fa-external-link-square-alt cert-link-icon"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section center-align fade-in">
+        <h2 class="section-title">06. <span>What's Next?</span></h2>
+        <h1 class="contact-title">Get In Touch</h1>
+        <p class="contact-desc">I am currently open to exciting opportunities in Software Engineering and Cyber Security. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+        <a href="mailto:akhilpothuganti09@gmail.com" class="btn btn-primary btn-large">Say Hello</a>
+        
+        <div class="social-links">
+            <a href="mailto:akhilpothuganti09@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            <a href="https://github.com/Pothuganti-Akhil" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="#" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </section>
+
+    <footer>
+        <p>Built with <i class="fas fa-keyboard"></i> by Pothuganti Akhil</p>
+    </footer>
+
+    <!-- 3D Background & Tilt Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
